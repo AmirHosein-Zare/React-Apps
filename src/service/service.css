@@ -1,6 +1,8 @@
 .service-content{
-    display: block;
-    margin-right: 7%;
+    display: grid;
+    grid-template-columns: repeat(6, minmax(150px, 200px));
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: center;
 }
 .service{
     display: block;

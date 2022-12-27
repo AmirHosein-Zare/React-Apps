@@ -1,6 +1,16 @@
-.Info-content-number{
+.Info-content-number , .Info-content-title{
     display: block;
+    color: white;
+    text-align: center;
+}
+.Info-content{
+    float: right;
+    margin: 20px;
+    margin-right: 10%;
+}
+.Info-content-number{
+    font-size: 35pt;
 }
 .Info-content-title{
-    display: block;
+    font-size: 12pt;
 }
