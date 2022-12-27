@@ -1,0 +1,32 @@
+@font-face {
+    font-family: IranSanseWeb;
+    src: url(../../public/font/IRANSansWeb\ Persian\ Bold.woff) format("woff")
+    , url(../../public/font/IRANSansWeb\ Persian\ Bold.eot) format("eot")
+    , url(../../public/font/IRANSansWeb\ Persian\ Bold.ttf) format("ttf");
+  }
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'IranSanseWeb';
+}
+li{
+    float: right;
+    margin: 0px 10px;
+    /* border-radius: 3px; */
+    transition: 0.3s;
+}
+p{
+    font-size: 16px;
+}
+p,i{
+    color: rgba(255, 255, 255, 0.832);
+    display: inline;
+    margin: 5px 3px;  
+}
+li:hover p, li:hover i{
+    cursor: pointer;
+    color: rgba(185, 185, 185, 0.85);
+}
+li:hover{
+    border-bottom: 2px solid rgba(185, 185, 185, 0.85);
+}

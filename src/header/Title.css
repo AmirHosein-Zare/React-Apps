@@ -1,0 +1,84 @@
+@font-face {
+    font-family: IranSanse;
+    src: url(../../public/font/IRANSansWeb\ Persian\ UltraLight.woff) format("woff")
+    , url(../../public/font/IRANSansWeb\ Persian\ UltraLight.eot) format("eot")
+    , url(../../public/font/IRANSansWeb\ Persian\ UltraLight.ttf) format("ttf");
+}
+*{
+    font-family: 'IranSanse';
+    margin: 0px;
+    padding: 0px;
+}
+#header-lorem{
+    display: block;
+    animation-name: slide-top;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+#title-lorem{
+    display: block;
+    color: white;
+    font-weight: 700;
+    font-size: 30pt;
+    animation-name: slide-top;
+    animation-duration: 0.5s;
+    animation-delay: 00s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+#header-text-box{
+    text-align: center;
+}
+#start-btn{
+    margin-top: 5px;
+    border: 2px solid rgba(88, 145, 147,1);
+    border-radius: 20px;
+    color: white;
+    font-size: 15pt;
+    padding: 3px 10px;
+    background-color: rgba(88, 145, 147,1);
+    transition: 0.3s;
+    animation-name: slide-top;
+    animation-duration: 1s;
+    animation-delay: 0.1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+#start-btn:hover{
+    cursor: pointer;
+    background-color: rgba(88, 145, 147,0);
+}
+
+/**
+ * ----------------------------------------
+ * animation slide-top
+ * ----------------------------------------
+ */
+ @-webkit-keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(-100px);
+              transform: translateY(-100px);
+    }
+    100% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+    }
+  }
+  @keyframes slide-top {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(+100px);
+                transform: translateY(+100px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+                transform: translateY(0px);
+    }
+  }
+  
