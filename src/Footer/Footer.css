@@ -1,0 +1,18 @@
+.Footer{
+    background-color: #167478;
+    width: 100%;
+    height: 25vh;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+}
+.Footer-icon{
+    font-size: 18pt;
+    justify-self: center;
+    margin: 10px;
+}
+.icon-container , .copy-text{
+    justify-self: center;
+}

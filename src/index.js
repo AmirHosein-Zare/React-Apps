@@ -9,6 +9,7 @@ import Plans from './Plans/Plans';
 import Lorem from './Lorem/Lorem'
 import Comment from './Comment/Comment'
 import Cantact from './CantactUs/Cantact';
+import Footer from './Footer/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,5 +23,6 @@ root.render(
         <Lorem />
         <Comment />
         <Cantact />
+        <Footer />
     </div>
 );
