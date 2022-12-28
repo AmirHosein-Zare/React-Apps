@@ -7,6 +7,7 @@ import Info from './Info/Info';
 import Sample from './Sample/Sample';
 import Plans from './Plans/Plans';
 import Lorem from './Lorem/Lorem'
+import Comment from './Comment/Comment'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,5 +19,6 @@ root.render(
         <Sample />
         <Plans />
         <Lorem />
+        <Comment />
     </div>
 );
