@@ -1,0 +1,48 @@
+.Cantact-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 20px;
+}
+.Cantact-right{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(6,50px);
+    grid-gap: 20px;
+    padding: 30px;
+}
+.cantact-item{
+    border-radius: 10px;
+    border: 1px solid #149a9f;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 12pt;
+}
+.cantact-item5{
+    grid-row: 3/6;
+    grid-column: 1/3;
+}
+.cantact-item6{
+    grid-column: 2/3;
+    border: 2px solid #177c80;
+    border-radius: 25px;
+    color: white;
+    background-color: #177c80;
+    width: 50%;
+    font-size: 14pt;
+    justify-self: end;
+    transition: 0.2s;
+}
+.cantact-item6:hover{
+    cursor: pointer;
+    color: #177c80;
+    background-color: #177d8000;
+}.Cantact-left{
+    background-color: #177d802f;
+    border-radius: 20px;
+    width: 80%;
+    height: 90%;
+}

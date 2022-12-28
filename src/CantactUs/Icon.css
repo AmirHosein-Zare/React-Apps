@@ -1,0 +1,20 @@
+.Icon{
+    margin: 15px;
+}
+.Icon-title{
+    display: inline;
+    color: #177c80;
+}
+.Icon-text{
+    border-right:1px solid #19a7ac;
+    margin: 5px;
+    margin-right: 8px;
+}
+#Icon-icon{
+    color: #177c80;
+    font-size: 12pt;
+}
+.Icon-address{
+    color: #19a7ac;
+    margin: 5px;
+}
