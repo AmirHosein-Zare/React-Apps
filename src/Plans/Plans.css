@@ -1,0 +1,12 @@
+.Plans{
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+.Plans-content{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(1,600px);
+    grid-gap: 20px;
+    justify-content: center;
+    margin: 20px 0px;
+}

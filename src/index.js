@@ -5,6 +5,7 @@ import About from './aboutUs/About'
 import Service from './service/service';
 import Info from './Info/Info';
 import Sample from './Sample/Sample';
+import Plans from './Plans/Plans';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,5 +15,6 @@ root.render(
         <Service />
         <Info />
         <Sample />
+        <Plans />
     </div>
 );
