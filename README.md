@@ -2,8 +2,7 @@
 that one page implement with react rfc
 
 Images
-![alt text](https://github.com/AmirHosein-Zare/Dashboard/tree/master/image/1.jpg?raw=true)
-
+![alt text](https://github.com/AmirHosein-Zare/React-Apps/blob/master/image/1.jpg?raw=true)
 
 ### `npm start`
 
